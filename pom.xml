@@ -70,8 +70,6 @@
                 <configuration/>
             </plugin>
 
-            <!-- (JaCoCo moved to an opt-in profile named 'coverage') -->
-
             <!-- Plugin to create executable JAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
