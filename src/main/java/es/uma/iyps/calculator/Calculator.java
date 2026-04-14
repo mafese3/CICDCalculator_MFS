@@ -1,7 +1,8 @@
 package es.uma.iyps.calculator;
 
 /**
- * Basic calculator that implements fundamental arithmetic operations. This class will be used to
+ * Basic calculator that implements fundamental arithmetic operations. This
+ * class will be used to
  * demonstrate CI/CD with GitHub Actions.
  *
  * @author IyPS Practice
@@ -17,7 +18,7 @@ public class Calculator {
    * @return the sum of a and b
    */
   public double add(double a, double b) {
-    return a + b;
+    return a + b
   }
 
   /**
@@ -60,7 +61,7 @@ public class Calculator {
   /**
    * Calculates the power of a number
    *
-   * @param base the base
+   * @param base     the base
    * @param exponent the exponent
    * @return base raised to the power of exponent
    * @throws IllegalArgumentException if the exponent is negative
