@@ -1,9 +1,11 @@
-# Calculator CI/CD 
+# Calculator CI/CD
 
 ## Description
+
 Sample project to show CI/CD with GitHub Actions. Implements a basic calculator in Java 21 with unit tests using JUnit 5 and Mockito.
 
 ## Features
+
 - ✅ Java 21
 - ✅ Maven as build tool
 - ✅ JUnit Jupiter 6.0.3 for unit testing
@@ -11,6 +13,7 @@ Sample project to show CI/CD with GitHub Actions. Implements a basic calculator 
 - ✅ Executable application with CLI interface
 
 ## Important Notes for Java 21
+
 This project targets Java 21. Java 21 is an LTS release with broad tooling support; the repository and CI are configured for Java 21.
 
 - **Mockito**: Works without special JVM flags in most cases; keep dependencies up-to-date.
@@ -19,6 +22,7 @@ This project targets Java 21. Java 21 is an LTS release with broad tooling suppo
 For production projects, consider long-term support (LTS) versions like Java 17 or Java 21 depending on compatibility requirements.
 
 ## Project Structure
+
 ```
 src/
 ├── main/java/es/uma/iyps/calculator/
@@ -30,6 +34,7 @@ src/
 ```
 
 ## Calculator Features
+
 - Basic operations: addition, subtraction, multiplication, division
 - Advanced operations: power, square root, factorial
 - Utilities: prime number verification
@@ -38,21 +43,25 @@ src/
 ## Build and Execution
 
 ### Compile the project
+
 ```bash
 mvn compile
 ```
 
 ### Run tests
+
 ```bash
 mvn test
 ```
 
 ### Generate executable JAR
+
 ```bash
 mvn package
 ```
 
 ### Run the application
+
 ```bash
 # Interactive mode
 java -jar target/calculator-practice1-1.0.0.jar
@@ -64,16 +73,19 @@ java -jar target/calculator-practice1-1.0.0.jar add 5 3
 ## Useful Commands for CI/CD
 
 ### Verify compilation
+
 ```bash
 mvn clean compile
 ```
 
 ### Run all tests
+
 ```bash
 mvn clean test
 ```
 
 ## Included Tests
+
 - ✅ **Basic unit tests**: Arithmetic operations
 - ✅ **Parameterized tests**: Multiple test cases
 - ✅ **Exception tests**: Error handling
@@ -81,7 +93,9 @@ mvn clean test
 - ✅ **Integration tests**: Combined operations
 
 ## Use Cases for GitHub Actions
+
 This project is ideal for demonstrating:
+
 1. **Java 21 setup** in GitHub runners
 2. **Maven dependency caching** to optimize builds
 3. **Test execution** with reporting
@@ -90,6 +104,7 @@ This project is ideal for demonstrating:
 6. **Java compatibility considerations** in CI/CD
 
 ## Example Commands
+
 ```bash
 # Addition
 java -jar target/calculator-practice1-1.0.0.jar add 10 5
@@ -105,6 +120,7 @@ java -jar target/calculator-practice1-1.0.0.jar prime 17
 ```
 
 ---
+
 **Version:** 1.0.0  
 **Java:** 21  
 **Maven:** 3.8+  
